@@ -18,7 +18,7 @@ class Database
 			'host' => 'localhost',
 			'user' => 'root',
 			'password' => '',
-			'dbname' => 'hxphp',
+			'dbname' => 'db_loja',
 			'charset' => 'utf8'
 		));
 		return $this;
