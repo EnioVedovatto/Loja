@@ -21,7 +21,7 @@
 			)
 			);
 
-		static $validates_uniqueness_of = array(
+		public static $validates_uniqueness_of = array(
 			array(
 					array('username','email'),
 					'message' => 'Já existe usuários cadastrado com estes dados.'
