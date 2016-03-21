@@ -14,4 +14,6 @@
 			'dbname' => 'db_loja'
 		));
 
+		$configs->env->development->auth->setURLs('/loja/home/', '/loja/login/');
+
 	return $configs;

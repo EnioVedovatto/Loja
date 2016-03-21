@@ -69,7 +69,7 @@ class Request
 
 	/**
 	 * Define filtros/flags customizados (http://php.net/manual/en/filter.filters.sanitize.php)
-	 * @param array $custom_filters Array com nome do campo e seu respectivo filtro
+	 * @param array $custom_filters array com nome do campo e seu respectivo filtro
 	 */
 	public function setCustomFilters(array $custom_filters = array())
 	{
@@ -78,7 +78,7 @@ class Request
 
 	/**
 	 * Realiza o tratamento das super globais
-	 * @param  array $request 		  Array nativo com campos e valores passados
+	 * @param  array $request 		  array nativo com campos e valores passados
 	 * @param  const $data    		  Constante que será tratada
 	 * @param  array $custom_filters  Filtros customizados para determinados campos
 	 * @return array                  Constate tratada

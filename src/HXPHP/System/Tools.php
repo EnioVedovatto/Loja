@@ -24,7 +24,7 @@ class Tools
 	 * Criptografa a senha do usuário no padrão HXPHP
 	 * @param  string $password Senha do usuário
 	 * @param  string $salt     Código alfanumérico
-	 * @return array            Array com o SALT e a SENHA
+	 * @return array            array com o SALT e a SENHA
 	 */
 	static function hashHX($password, $salt = null)
 	{

@@ -36,7 +36,7 @@ class Messages
 		$this->file = $template->getTemplatePath();
 
 		/**
-		 * JSON => ARRAY
+		 * JSON => array
 		 * @var array
 		 */
 		if($template->getJson() !== false)

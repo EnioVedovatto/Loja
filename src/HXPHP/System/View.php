@@ -148,7 +148,7 @@ class View
 
 	/**
 	 * Define um conjunto de variáveis para a VIEW
-	 * @param array  $vars  Array com variáveis
+	 * @param array  $vars  array com variáveis
 	 */
 	public function setVars(array $vars)
 	{
@@ -170,7 +170,7 @@ class View
 	/**
 	 * Define os arquivos customizáveis que serão utilizados
 	 * @param string  $type  Tipo do arquivo
-	 * @param string|array  $assets  Arquivo Único | Array com os arquivos
+	 * @param string|array  $assets  Arquivo Único | array com os arquivos
 	 */
 	public function setAssets($type, $assets)
 	{

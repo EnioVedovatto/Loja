@@ -22,7 +22,7 @@ class Menu
 	private $baseURI;
 
 	/**
-	 * Define o ARRAY com menus e o CONTROLLER
+	 * Define o array com menus e o CONTROLLER
 	 * @param string $role Nível do usuário
 	 * @param string $controller Controller
 	 */
@@ -46,7 +46,7 @@ class Menu
 	}
 	
 	/**
-	 * Define o Array com menus e submenus
+	 * Define o array com menus e submenus
 	 * @param  string $role Role do usuário
 	 */
 	private function setMenu($role)
